@@ -27,5 +27,3 @@ function FirstReverse(str) {
 
 //*********************** TESTING ***********************
 FirstReverse(string);                          
-
-

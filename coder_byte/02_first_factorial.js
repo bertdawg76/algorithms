@@ -3,8 +3,8 @@
 Use the Parameter Testing feature in the box below to test your code with different arguments.*/
 
 
-//**********************************************
-// SOLUTION 1 -- ITERATVELY 
+//******************** SOLUTION 1 -- ITERATVELY *********
+
 function FirstFactorial(num) { 
     // If the number is less than 0, reject it.
     if (num < 0) {
@@ -22,14 +22,15 @@ function FirstFactorial(num) {
     return x;
 }
 
+//*********************** TESTING ***********************
 var result = factorial(4);
 console.log(result);
 
 // Output: 40320
 
 
-//**********************************************
-// SOLUTION 2 -- RECURSIVELY 
+//******************** SOLUTION 2 -- RECURSIVELY *********
+ 
 
 
 
@@ -49,6 +50,7 @@ function factorial(num)
     }
 }
 
+//*********************** TESTING ***********************
 var result = factorial(8);
 console.log(result);
 
