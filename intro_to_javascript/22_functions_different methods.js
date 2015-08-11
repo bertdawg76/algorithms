@@ -8,22 +8,18 @@ function functionTwo() {
 }
 
 // What is the difference?
-<script>
+
   // Error
   functionOne();
 
   var functionOne = function() {
   };
-</script>
 
-<script>
   // No error
   functionTwo();
 
   function functionTwo() {
   }
-</script>
-
 
 /*The difference isn't only that they are parsed at different times. Essentially, functionOne is merely a variable that has an anonymous function assigned to it, whereas functionTwo is actually a named function. Call .toString() on both to see the difference. This is significant in some cases where you want to get the name of a function programmatically.
 
